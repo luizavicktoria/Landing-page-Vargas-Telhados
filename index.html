@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <title>Vargas Manutenção em Telhados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="img/logo_fundopng.png" type="image/png">
+</head>
+
+<body>
+  <header class="head1">
+
+
+    <div class="fundo-barra">
+      <nav id="partedohead"
+        class="container-navegacao d-flex flex-wrap justify-content-between align-items-center py-3">
+        <a href="#" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+          <img src="img/logo_fundopng.png" class="logo" alt="Logo" />
+        </a>
+        <button class="btn btn-primary d-md-none botaoMenu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+          <i class="fas fa-bars"></i>
+        </button>
+
+          <ul class="nav justify-content-center flex-wrap gap-2 d-none d-md-flex">
+          <li class="nav-item"><a class="nav-link" href="#Sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#trabalho">Trabalhos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="nav flex-column">
+          <li class="nav-item"><a class="nav-link" href="#Sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#trabalho">Trabalhos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </header>
+  <section id="Sobre" class="container text-center">
+    <div id="divpai_sobre" class="row align-items-center flex-column flex-md-row">
+      <div class="col-md-6 d-flex justify-content-center">
+        <div id="img-fluid">
+          <img id="fototeclado" src="img/capa.jpeg" alt="fotoDoTelhado" style="width: 100%; height: 100%; object-fit: cover;" />
+        </div>
+      </div>
+      <div id="divtextosobre" class="col-md-6 mb-4 mb-md-0">
+        <h1>Sobre a empresa:</h1>
+        <p>
+          Atuando no mercado desde 2016, a Vargas Manutenção em Telhados é especializada em serviços de impermeabilização 
+          e reparos em telhados, lajes, calhas e algerosas com problemas de infiltração.
+          Nosso compromisso é oferecer soluções eficientes, com 
+          qualidade e responsabilidade, garantindo a satisfação de nossos clientes. 
+        </p>
+      </div>
+    </div>
+  </section> 
+
+  <section id="empresa" class="container text-center">
+    <div id="div_empresa" class="row align-items-center flex-column flex-md-row">
+      <div id="divtextoempresa" class="col-md-6 mb-4 mb-md-0">
+        <h1>Alguns de nossos clientes comerciais:</h1>
+        <ul>
+          <li>HIPERMERCADO CARREFOUR/SAM'S CLUB</li>
+          <li>FARMÁCIAS PANVEL</li>
+          <li>SAVAR / MERCEDES BENS</li>
+          <li>REDES DE SUPERMECADOS VANCOSTY</li>
+          <li>REDES DE SUPERMECADOS MABY</li>
+        </ul>
+      </div>
+    </div>
+  </section> 
+  <section id="seguranca" class="container">
+    <h1 class="text-center mb-4">Segurança, qualidade e garantia:</h1>
+    <div class="row text-center">
+      <div class="col-md-3 col-6 mb-3">
+        <img id="casa" src="img/icons/casa.png" alt="Casa" class="img-fluid mb-2"/>
+        <p>Mais de 1.000 serviços realizados com competência!</p>
+      </div>
+      <div class="col-md-3 col-6 mb-3">
+        <img id="atendimento" src="img/icons/atendimento.png" alt="atendimento" class="img-fluid mb-2"/>
+        <p>Atendemos comércios e residências.</p>
+      </div>
+      <div class="col-md-3 col-6 mb-3">
+        <img id="cadeado" src="img/icons/cadeado.png" alt="Cadeado" class="img-fluid mb-2"/>
+        <p>Todos nossos serviços possui garantia.</p>
+      </div>
+      <div class="col-md-3 col-6 mb-3">
+        <img id="cifrao" src="img/icons/cifrao.png" alt="Cifrão" class="img-fluid mb-2"/>
+        <p>Atendemos a todo o estado do Rio Grande do Sul e Santa Catarina por um preço acessível!</p>
+      </div>
+    </div>
+  </section>
+  </section>
+  <section id="trabalho" class="container text-center">
+    <h1>Trabalhos realizados</h1>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="img/jobs/trabalho1.jpg" alt="Primeiro Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/trabalho2.jpg" alt="Segundo Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/trabalho3.jpg" alt="Terceiro Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/trabalho4.jpg" alt="Quarto Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/trabalho5.jpg" alt="Quinto Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/vt0.jpeg" alt="6 Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/vt1.jpeg" alt="7 Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/vt3.jpeg" alt="8 Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/vt4.jpeg" alt="9 Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/vt5.jpeg" alt="10 Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/vt6.jpeg" alt="11 Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/vt7.jpeg" alt="12 Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/vt8.jpeg" alt="13 Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/vt9.jpeg" alt="14 Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/vt10.jpeg" alt="15 Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/vt11.jpeg" alt="16 Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/vt12.jpeg" alt="17 Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/vt2.jpeg" alt="18 Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/vt13.jpeg" alt="19 Slide">
+        </div>
+         <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/vt14.jpeg" alt="20 Slide">
+        </div>
+         <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/vt15.jpeg" alt="21 Slide">
+        </div>
+         <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/vt16.jpeg" alt="22 Slide">
+        </div>
+         <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/vt17.jpeg" alt="23 Slide">
+        </div>
+         <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/vt18.jpeg" alt="24 Slide">
+        </div>
+         <div class="carousel-item">
+          <img class="d-block w-100" src="img/jobs/vt19.jpeg" alt="25 Slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+  </section>
+  <footer id="Contato" class="text-center text-white" style="background-color: #3f51b5">
+    <div class="container">
+      <section class="mb-10">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8 pt-4">
+            <h1>Ficou interessado?</h1>
+            <p>
+              Clique em um dos ícones e entre em contato para solicitar seu
+              orçamento!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="text-center mb-5">
+               <a data-mdb-ripple-init class="btn" style="background-color: #3b589800"
+          href="https://www.facebook.com/vargastelhados/?locale=pt_BR" role="button"><i
+            class="fab fa-facebook-f fa-3x"></i></a>
+                <a data-mdb-ripple-init class="btn" style="background-color: #ac2bac00"
+          href="https://www.instagram.com/vargas_telhados/" role="button"><i class="fab fa-instagram fa-3x"></i></a>
+        
+        <a data-mdb-ripple-init class="btn" style="background-color: #25d36500" href="https://wa.me/5551985380601?text=Ol%C3%A1,%20vim%20pelo%20site%20e%20tenho%20interesse%20em%20contratar%20seus%20servi%C3%A7os.%20Podemos%20or%C3%A7ar?"
+          role="button"><i class="fab fa-whatsapp fa-3x"></i></a>
+      </section>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      
+         </div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
